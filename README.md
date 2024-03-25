@@ -1,5 +1,5 @@
 > [参考大牛的源码](https://github.com/holmofy/debezium-datetime-converter#readme)
-[![Debezium architecture](https://debezium.io/documentation/reference/1.4/_images/debezium-architecture.png)](https://debezium.io/documentation/reference/1.4/connectors/mysql.html)
+[![Debezium architecture](https://debezium.io/documentation/reference/1.9/_images/debezium-architecture.png)](https://debezium.io/documentation/reference/1.4/connectors/mysql.html)
 
 [![Build Status(https://github.com/holmofy/debezium-datetime-converter/actions/workflows/release.yml/badge.svg)](https://github.com/holmofy/debezium-datetime-converter/actions/workflows/release.yml/badge.svg)](https://github.com/holmofy/debezium-datetime-converter/releases)
 
