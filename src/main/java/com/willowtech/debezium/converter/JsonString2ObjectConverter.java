@@ -73,7 +73,7 @@ public class JsonString2ObjectConverter implements CustomConverter<SchemaBuilder
             byte[] bytes = (byte[]) input;
             //记录一下：
             //时间：2024年3月21日17:03:54
-            //原始字段存储的如果是中文，下面这个转换方法，无法正确还原，后面有时间了在研究一下中文编码的问题
+            //原始字段存储的如果是中文，编码是：StandardCharsets.UTF_16LE
             //所以，这个需求还是交给es自己去处理比较好，使用ingest pipeline 中中的split方法完美解决。本例中有介绍！
             String originalString = new String(bytes, StandardCharsets.UTF_16);
             String[] array = new String[0];
