@@ -94,3 +94,4 @@ PUT index/_settings
 "default_pipeline": "string_to_array_pipeline"
 }
 ```
+###### 6，[使用过程中，更多细节请参考这篇文章](https://www.cnblogs.com/hbuuid/p/18093930)
